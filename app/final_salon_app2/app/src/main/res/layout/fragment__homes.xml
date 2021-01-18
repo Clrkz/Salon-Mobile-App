@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp">
+
+        <ImageView
+            android:id="@+id/img_fname"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/s2"
+            android:padding="5dp"
+            android:src="@drawable/s"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/et_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_fname"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toRightOf="@+id/img_fname"
+            android:background="#eae4e4"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="Select our services and book now"
+            android:textColor="#ec76ea"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

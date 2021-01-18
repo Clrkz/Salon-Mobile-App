@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ba28ba</color>
+    <color name="colorPrimaryDark">#e167f7</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+     <color name="profile_default_tint">#e0e0e0</color>
+
+
+    <color name="rbtn">#837d7d</color>
+
+
+    <color name="address">#2F7092</color>
+
+    <color name="s1">#e740c8</color>
+    <color name="s2">#a3278c</color>
+    <color name="s3">#DADADA</color>
+    <color name="s5">#0ee765</color>
+    <color name="s6">#d39bf5</color>
+    <color name="transparent">#00000000</color>
+    <color name="s4">#6e6e6e</color>
+
+    <color name="s7">#f1eeee</color>
+    <color name="s8">#d9b2e6</color>
+
+
+    <color name="solidCircle">#80FFFFFF</color>
+
+
+    <color name="headings">#3797CF</color>
+
+    <color name="circleBorder">#30FFFFFF</color>
+    <color name="gradEnd">#dfb6e4</color>
+    <color name="gradStart">#8b0f9c</color>
+    <color name="followersBag">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="white">#FFFFFF</color>
+</resources>

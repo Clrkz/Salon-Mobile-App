@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_admin"
+            android:icon="@drawable/ic_home"
+            android:title="Admin Home" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+
+        <item
+            android:id="@+id/nav_customer_appointment"
+            android:icon="@drawable/ic_uncheck"
+            android:title="My appointment" />
+        <item
+            android:id="@+id/nav_approve_appointment"
+            android:icon="@drawable/ic_check_box"
+            android:title="View Approve appointment" />
+
+
+
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_service"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_calendar"
+            android:title="Appointment" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_check_box"
+            android:title="History" />
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_contact_information"
+                android:title="Contact Information" />
+            <item
+                android:id="@+id/nav_terms_of_service"
+                android:title="Terms of service" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
